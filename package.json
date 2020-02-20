@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-circuit-breaker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch src/ --exec \"ts-node src/index.ts\" -e ts"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment": "^2.24.0",
+    "opossum": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/moment": "^2.13.0",
+    "@types/opossum": "^4.1.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.5"
+  }
+}
